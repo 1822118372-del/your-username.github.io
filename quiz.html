@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="quiz-container">
-        <h2>第 1 题 / 20</h2>
+        <h2 id="question-text">第 1 题 / 20</h2>
         <p>对方半天没回你消息，你的第一反应是？</p>
         <form>
             <input type="radio" name="answer" id="a" value="4"><label for="a">疯狂发消息，担心他出事</label><br>
@@ -17,6 +17,7 @@
             <input type="radio" name="answer" id="d" value="1"><label for="d">无所谓，他想回自然会回</label><br>
             <button type="button" id="next-question">下一题</button>
         </form>
+        <p id="progress-text">1/20</p>
     </div>
 
     <script src="script.js"></script>
